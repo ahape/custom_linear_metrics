@@ -1,0 +1,482 @@
+{
+    "data": {
+        "__type": {
+            "kind": "OBJECT",
+            "name": "Team",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "createdAt",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "updatedAt",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "archivedAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "name",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "key",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "description",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "String",
+                        "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text."
+                    }
+                },
+                {
+                    "name": "icon",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "String",
+                        "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text."
+                    }
+                },
+                {
+                    "name": "color",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "String",
+                        "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text."
+                    }
+                },
+                {
+                    "name": "organization",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "cyclesEnabled",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "cycleStartDay",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "cycleDuration",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "cycleCooldownTime",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "cycleIssueAutoAssignStarted",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "cycleIssueAutoAssignCompleted",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "cycleLockToActive",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "upcomingCycleCount",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "timezone",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "inviteHash",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "issueEstimationType",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "issueOrderingNoPriorityFirst",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "issueEstimationAllowZero",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "setIssueSortOrderOnStateChange",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "issueEstimationExtended",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "defaultIssueEstimate",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "triageEnabled",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "requirePriorityToLeaveTriage",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "defaultIssueState",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "WorkflowState",
+                        "description": "A state in a team workflow."
+                    }
+                },
+                {
+                    "name": "defaultTemplateForMembers",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "Template",
+                        "description": "A template object used for creating entities faster."
+                    }
+                },
+                {
+                    "name": "defaultTemplateForNonMembers",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "Template",
+                        "description": "A template object used for creating entities faster."
+                    }
+                },
+                {
+                    "name": "defaultProjectTemplate",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "Template",
+                        "description": "A template object used for creating entities faster."
+                    }
+                },
+                {
+                    "name": "triageIssueState",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "WorkflowState",
+                        "description": "A state in a team workflow."
+                    }
+                },
+                {
+                    "name": "private",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "scimManaged",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "groupIssueHistory",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "slackNewIssue",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "slackIssueComments",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "slackIssueStatuses",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "autoClosePeriod",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "Float",
+                        "description": "The `Float` scalar type represents signed double-precision fractional values as specified by [IEEE 754](https://en.wikipedia.org/wiki/IEEE_floating_point)."
+                    }
+                },
+                {
+                    "name": "autoCloseStateId",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "String",
+                        "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text."
+                    }
+                },
+                {
+                    "name": "autoArchivePeriod",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "markedAsDuplicateWorkflowState",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "WorkflowState",
+                        "description": "A state in a team workflow."
+                    }
+                },
+                {
+                    "name": "joinByDefault",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "Boolean",
+                        "description": "The `Boolean` scalar type represents `true` or `false`."
+                    }
+                },
+                {
+                    "name": "cycleCalenderUrl",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "issues",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "issueCount",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "cycles",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "activeCycle",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "Cycle",
+                        "description": "A set of issues to be resolved in a specified amount of time."
+                    }
+                },
+                {
+                    "name": "triageResponsibility",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "TriageResponsibility",
+                        "description": "A team's triage responsibility."
+                    }
+                },
+                {
+                    "name": "members",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "memberships",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "projects",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "states",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "gitAutomationStates",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "templates",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "labels",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "webhooks",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "integrationsSettings",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "IntegrationsSettings",
+                        "description": "The configuration of all integrations for a project or a team."
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,429 @@
+{
+    "data": {
+        "cycle": {
+            "id": "a8f21e06-ae07-4d0b-95c6-18ae64f67c69",
+            "name": "2024.6",
+            "issues": {
+                "nodes": [
+                    {
+                        "id": "9df8a345-46ec-4061-b989-85690d447803",
+                        "state": {
+                            "name": "In Progress"
+                        },
+                        "estimate": null
+                    },
+                    {
+                        "id": "136eef48-926e-4968-958a-2e0efd5ed4f4",
+                        "state": {
+                            "name": "Task Complete"
+                        },
+                        "estimate": null
+                    },
+                    {
+                        "id": "0c11d028-b36f-4609-aa24-aa94c9097305",
+                        "state": {
+                            "name": "In Progress"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "5d999398-e35a-40cf-b8ed-0e29f8d18dd9",
+                        "state": {
+                            "name": "Todo"
+                        },
+                        "estimate": null
+                    },
+                    {
+                        "id": "39a7fd76-7856-4c71-8ff7-38d4f6fb63a7",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": null
+                    },
+                    {
+                        "id": "b052193a-7561-49f2-9b37-3745534c95f2",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "51aea2d6-739d-47c7-9377-556c8613fd7c",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "4a1c22ea-ca25-4758-b5d0-c698471a3c13",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 3
+                    },
+                    {
+                        "id": "72bdefe3-3742-433c-b9b4-5fd405331c46",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 1
+                    },
+                    {
+                        "id": "74d22a39-b3e5-453a-aff8-53be3251b00d",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "c321b009-f58b-4b92-a162-216634417d43",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 1
+                    },
+                    {
+                        "id": "2d6c5718-a94c-41c2-a11e-105d4f59a12a",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 1
+                    },
+                    {
+                        "id": "1ac664d5-00c8-4cf0-ad2d-b9f4a0e58d54",
+                        "state": {
+                            "name": "Task Complete"
+                        },
+                        "estimate": null
+                    },
+                    {
+                        "id": "52888a2e-bd01-4598-898b-fc70d31762fe",
+                        "state": {
+                            "name": "Task Complete"
+                        },
+                        "estimate": null
+                    },
+                    {
+                        "id": "6cc5d555-91b9-4e83-ab67-ca912f89cb76",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 1
+                    },
+                    {
+                        "id": "b0b5bf02-7feb-45f9-a596-ad307e249c84",
+                        "state": {
+                            "name": "In Progress"
+                        },
+                        "estimate": 13
+                    },
+                    {
+                        "id": "105fae9a-4add-479d-868e-f51392552d22",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "fba29d00-4181-470b-8f01-d89da323abfe",
+                        "state": {
+                            "name": "Todo"
+                        },
+                        "estimate": null
+                    },
+                    {
+                        "id": "037879a4-4dd8-44ca-b74c-18524d5bbce6",
+                        "state": {
+                            "name": "In Progress"
+                        },
+                        "estimate": 13
+                    },
+                    {
+                        "id": "b642b9ca-f215-4679-97c7-d44ca9a9ecec",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": null
+                    },
+                    {
+                        "id": "2631525f-6005-46e6-848b-fa8313b065d9",
+                        "state": {
+                            "name": "Rollout Complete"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "d7b4b6b2-3355-4505-9ce5-0950b48172d5",
+                        "state": {
+                            "name": "Task Complete"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "cc6eb4ef-02f2-41e2-87a9-13701d4ac104",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "284c411a-1841-4a0e-9604-af74f79c9bff",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "a7338b52-615a-481b-a326-3020fbb0be6b",
+                        "state": {
+                            "name": "Rollout Complete"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "f922c913-aa7d-4d81-aa8f-2f8d68768d3a",
+                        "state": {
+                            "name": "Rollout Complete"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "d4981b3f-ccb3-4ae8-93af-f3dcffec30dc",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "ec7ac1d8-375c-4688-911c-5ff6bd24e313",
+                        "state": {
+                            "name": "Rollout Complete"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "19fae18b-3453-4239-9f09-0f43bf61fead",
+                        "state": {
+                            "name": "Rollout Complete"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "6f0d77a0-6196-4573-a295-15cc65ccd4e1",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "981d2518-f601-4f5e-8e4a-358201621fa6",
+                        "state": {
+                            "name": "Rollout Complete"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "a6277778-eb75-4496-bca5-803115c98acc",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": null
+                    },
+                    {
+                        "id": "dffca327-7409-4c40-b96e-e84c5bce86b0",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 1
+                    },
+                    {
+                        "id": "6317d4f7-d771-43c3-89ef-4f0a9676db8b",
+                        "state": {
+                            "name": "Todo"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "8f48dcfa-4c83-48e9-90d4-afe998d7edb7",
+                        "state": {
+                            "name": "Todo"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "0fd1284b-c710-4a2b-b619-9828914995e0",
+                        "state": {
+                            "name": "Task Complete"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "bdf2268d-de8f-460b-a39c-64aee8f2e497",
+                        "state": {
+                            "name": "In Progress"
+                        },
+                        "estimate": 3
+                    },
+                    {
+                        "id": "8d753782-8175-46ee-ba94-5c38e3aeaeee",
+                        "state": {
+                            "name": "Task Complete"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "38d17f04-91ac-4706-962f-e00d38f85698",
+                        "state": {
+                            "name": "In Progress"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "a1351fb2-d151-4cbd-8ccf-a264bfd8bdba",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "3ad799b4-accb-48ea-83c7-e5cedbcfa948",
+                        "state": {
+                            "name": "Task Complete"
+                        },
+                        "estimate": 1
+                    },
+                    {
+                        "id": "a41916de-3f6a-4e98-804a-97c9f02582f6",
+                        "state": {
+                            "name": "In Progress"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "3f935188-4f0d-42ac-94a2-5ce7303122af",
+                        "state": {
+                            "name": "In Progress"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "15ae48a9-4cc8-47e8-ab80-f730cbaf3f8d",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 1
+                    },
+                    {
+                        "id": "01d2e542-e029-4f42-9066-75e7670e0516",
+                        "state": {
+                            "name": "Todo"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "212c135f-2111-4c52-8fbf-84ba33a0c01e",
+                        "state": {
+                            "name": "Todo"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "21b46b7c-c8aa-490f-af7e-71b3ee5a3a8b",
+                        "state": {
+                            "name": "Todo"
+                        },
+                        "estimate": 5
+                    },
+                    {
+                        "id": "aff42476-505f-4d6a-b40d-d0634ea6d606",
+                        "state": {
+                            "name": "Todo"
+                        },
+                        "estimate": 3
+                    },
+                    {
+                        "id": "20b61b1a-6255-4c05-8576-90154ef31ae6",
+                        "state": {
+                            "name": "Todo"
+                        },
+                        "estimate": 1
+                    },
+                    {
+                        "id": "a63a8a4d-0b57-4bd1-b17c-3356f8ccc96c",
+                        "state": {
+                            "name": "Code Complete"
+                        },
+                        "estimate": 3
+                    },
+                    {
+                        "id": "975f09db-f5e0-4cbb-af7e-efa916be8efd",
+                        "state": {
+                            "name": "Todo"
+                        },
+                        "estimate": 3
+                    },
+                    {
+                        "id": "dcd1d705-ddc4-4353-aebf-4088c6b8363d",
+                        "state": {
+                            "name": "In Progress"
+                        },
+                        "estimate": 3
+                    },
+                    {
+                        "id": "da59cf24-260a-4324-8e02-eb5f838b77a6",
+                        "state": {
+                            "name": "In Progress"
+                        },
+                        "estimate": null
+                    },
+                    {
+                        "id": "c3332ab5-e6f4-4851-ae94-42bb5ea8b8f0",
+                        "state": {
+                            "name": "In Progress"
+                        },
+                        "estimate": 5
+                    },
+                    {
+                        "id": "82267a1b-bf91-4424-a06d-e2da22236710",
+                        "state": {
+                            "name": "Code Review & QA"
+                        },
+                        "estimate": 2
+                    },
+                    {
+                        "id": "4ad14a14-8a71-4e5d-b29c-d037b4815f5a",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": 1
+                    },
+                    {
+                        "id": "e54c2626-c43f-44fe-9f65-c41100a93192",
+                        "state": {
+                            "name": "Ready for Release"
+                        },
+                        "estimate": null
+                    },
+                    {
+                        "id": "2bba16a1-8b15-4697-af52-6000c6b97370",
+                        "state": {
+                            "name": "Code Review & QA"
+                        },
+                        "estimate": null
+                    },
+                    {
+                        "id": "71cbea83-6410-415d-a724-7324b3329e0d",
+                        "state": {
+                            "name": "Code Complete"
+                        },
+                        "estimate": null
+                    }
+                ],
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "71cbea83-6410-415d-a724-7324b3329e0d"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,442 @@
+{
+    "data": {
+        "__type": {
+            "kind": "OBJECT",
+            "name": "Issue",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "createdAt",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "updatedAt",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "archivedAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "number",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "title",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "priority",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "estimate",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "Float",
+                        "description": "The `Float` scalar type represents signed double-precision fractional values as specified by [IEEE 754](https://en.wikipedia.org/wiki/IEEE_floating_point)."
+                    }
+                },
+                {
+                    "name": "sortOrder",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "startedAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "completedAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "startedTriageAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "triagedAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "canceledAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "autoClosedAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "autoArchivedAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "dueDate",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "TimelessDate",
+                        "description": "Represents a date in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "slaStartedAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "slaBreachesAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "trashed",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "Boolean",
+                        "description": "The `Boolean` scalar type represents `true` or `false`."
+                    }
+                },
+                {
+                    "name": "snoozedUntilAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "labelIds",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "team",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "cycle",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "Cycle",
+                        "description": "A set of issues to be resolved in a specified amount of time."
+                    }
+                },
+                {
+                    "name": "project",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "Project",
+                        "description": "A project."
+                    }
+                },
+                {
+                    "name": "projectMilestone",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "ProjectMilestone",
+                        "description": "A milestone for a project."
+                    }
+                },
+                {
+                    "name": "lastAppliedTemplate",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "Template",
+                        "description": "A template object used for creating entities faster."
+                    }
+                },
+                {
+                    "name": "previousIdentifiers",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "creator",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "User",
+                        "description": "A user that has access to the the resources of an organization."
+                    }
+                },
+                {
+                    "name": "externalUserCreator",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "ExternalUser",
+                        "description": "An external authenticated (e.g., through Slack) user which doesn't have a Linear account, but can create and update entities in Linear from the external system that authenticated them."
+                    }
+                },
+                {
+                    "name": "assignee",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "User",
+                        "description": "A user that has access to the the resources of an organization."
+                    }
+                },
+                {
+                    "name": "snoozedBy",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "User",
+                        "description": "A user that has access to the the resources of an organization."
+                    }
+                },
+                {
+                    "name": "state",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "subIssueSortOrder",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "Float",
+                        "description": "The `Float` scalar type represents signed double-precision fractional values as specified by [IEEE 754](https://en.wikipedia.org/wiki/IEEE_floating_point)."
+                    }
+                },
+                {
+                    "name": "priorityLabel",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "sourceComment",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "Comment",
+                        "description": "A comment associated with an issue."
+                    }
+                },
+                {
+                    "name": "integrationSourceType",
+                    "type": {
+                        "kind": "ENUM",
+                        "name": "IntegrationService",
+                        "description": "Linear supported integration services."
+                    }
+                },
+                {
+                    "name": "botActor",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "ActorBot",
+                        "description": "A bot actor is an actor that is not a user, but an application or integration."
+                    }
+                },
+                {
+                    "name": "favorite",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "Favorite",
+                        "description": "User favorites presented in the sidebar."
+                    }
+                },
+                {
+                    "name": "identifier",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "url",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "branchName",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "customerTicketCount",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "subscribers",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "parent",
+                    "type": {
+                        "kind": "OBJECT",
+                        "name": "Issue",
+                        "description": "An issue."
+                    }
+                },
+                {
+                    "name": "children",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "comments",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "history",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "labels",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "relations",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "inverseRelations",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "attachments",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "description",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "String",
+                        "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text."
+                    }
+                },
+                {
+                    "name": "descriptionState",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "String",
+                        "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text."
+                    }
+                }
+            ]
+        }
+    }
+}

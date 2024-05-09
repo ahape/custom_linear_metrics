@@ -1,0 +1,170 @@
+{
+    "data": {
+        "__type": {
+            "kind": "OBJECT",
+            "name": "Cycle",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "createdAt",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "updatedAt",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "archivedAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "number",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "name",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "String",
+                        "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text."
+                    }
+                },
+                {
+                    "name": "description",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "String",
+                        "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text."
+                    }
+                },
+                {
+                    "name": "startsAt",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "endsAt",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "completedAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "autoArchivedAt",
+                    "type": {
+                        "kind": "SCALAR",
+                        "name": "DateTime",
+                        "description": "Represents a date and time in ISO 8601 format. Accepts shortcuts like `2021` to represent midnight Fri Jan 01 2021. Also accepts ISO 8601 durations strings which are added to the current date to create the represented date (e.g '-P2W1D' represents the date that was two weeks and 1 day ago) "
+                    }
+                },
+                {
+                    "name": "issueCountHistory",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "completedIssueCountHistory",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "scopeHistory",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "completedScopeHistory",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "inProgressScopeHistory",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "team",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "issues",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "uncompletedIssuesUponClose",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                },
+                {
+                    "name": "progress",
+                    "type": {
+                        "kind": "NON_NULL",
+                        "name": null,
+                        "description": null
+                    }
+                }
+            ]
+        }
+    }
+}
