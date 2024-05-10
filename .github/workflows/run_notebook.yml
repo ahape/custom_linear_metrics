@@ -30,4 +30,4 @@ jobs:
 
     - name: Run Notebook
       run: |
-        jupyter nbconvert --execute CustomSprintMetrics.ipynb
+        jupyter notebook CustomSprintMetrics.ipynb
